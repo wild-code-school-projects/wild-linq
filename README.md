@@ -17,4 +17,4 @@ Validation Criteria
     A Species entity represents a species of animal.
     LINQ methods are used to count the animals.
 
-![image](https://image.noelshack.com/fichiers/2024/18/1/1714378437-screenshot-2024-04-29-101335.png)
+![image](https://image.noelshack.com/fichiers/2024/18/1/1714378739-screenshot-2024-04-29-101842.png)
