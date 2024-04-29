@@ -67,7 +67,7 @@ namespace ConsoleApp1
 
         static void DisplayProtectedSpeciesCount(AnimalContext context)
         {
-            var protectedSpecies = context.Species.Where(s => s.Name.ToLower() == "White Cougars".ToLower() || s.Name.ToLower() == "White Tigers".ToLower() || s.Name.ToLower() == "Albino Turtles".ToLower());
+            var protectedSpecies = from s in context.Species where s.Name.ToLower() == "White Cougars".ToLower() || s.Name.ToLower() == "White Tigers".ToLower() || s.Name.ToLower() == "Albino Turtles".ToLower() select s;
 
             foreach (var species in protectedSpecies)
             {
